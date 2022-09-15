@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="tiente.js"></script>
+</head>
+<style>
+  .text-1{
+    margin-left: auto;
+  }
+  .text-2{
+    margin-left: 170px;
+  }
+  .type-1{
+    margin-left: 70px;
+  }
+  .type-2{
+    margin-left: 50px;
+  }
+  .text-3{
+    margin-left: 15px;
+  }
+  .button{
+    margin-left: 15px;
+  }
+</style>
+<body>
+<div class="label">
+  <label class="text-1">Amount</label>
+  <label class="text-2">From Currency</label>
+  <label class="text-3">To Currency</label>
+</div>
+<input id="input" class="name" type="number" placeholder="1">
+<select class= "type-1" id="type-select-1">
+  <option value="VND">VND</option>
+  <option value="USD">USD</option>
+</select>
+<select class="type-2" id="type-select-2">
+  <option value="VND">VND</option>
+  <option value="USD">USD</option>
+</select>
+<button class="button" type="button" onclick="convertMoney()">Convert</button>
+<br/>
+
+<label>Result: </label> <span id="result">123</span>
+</body>
+</html>
